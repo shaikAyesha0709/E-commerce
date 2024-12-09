@@ -1,0 +1,50 @@
+.view-items {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 80vw;
+      max-height: 78vh;
+      margin: 20px auto;
+      overflow-y: auto;
+      position: relative;
+    }
+    .view-items h2{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      
+    }
+    .head{
+      height: 7vh;
+    }
+    .view-items table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    .view-items th, .view-items td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    .view-items th {
+      background-color: #000000;
+      font-weight:300;
+      color: white;
+      font-family: "Poppins";
+      position: sticky; 
+      top: 0; 
+      z-index: 1; 
+    }
+    
+    .view-items img {
+      width: 50px;
+      border-radius: 5px;
+    }
+    
+    .view-items tr:hover {
+      background-color: #f1f1f1;
+    }
+    

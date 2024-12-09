@@ -1,0 +1,38 @@
+/* Footer.css */
+
+.footer {
+      height: 30vh;
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    
+    .footer p {
+      font-size: 25px;
+      margin-bottom: 10px;  /* Add margin-bottom for spacing */
+    }
+    
+    .uno {
+      list-style: none;
+      padding: 0;  /* Remove default padding */
+      margin: 0;  /* Remove default margin */
+    }
+    
+    .uno p {
+      margin: 0;  /* Reset margin for p inside uno */
+    }
+    
+    .uno li {
+      margin-bottom: 10px;  /* Add spacing between list items */
+    }
+    
+    /* Ensure the items in the .uno class are displayed in a column */
+    .left .uno, .middle .uno, .right .uno {
+      display: flex;
+      flex-direction: column;
+    }
+    

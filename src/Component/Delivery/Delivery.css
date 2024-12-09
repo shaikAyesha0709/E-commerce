@@ -1,0 +1,62 @@
+/* src/StepwiseForm.css */
+
+.form-container {
+      max-width: 50vw;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 8px 42px 0 rgba(71, 70, 70, 0.506);
+    }
+    
+
+    .step-content > h2{
+      text-align: center;
+      margin-top: 10px;
+    }
+    
+    .form-group {
+      margin-bottom: 10px;
+      position: relative;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    .form-group input {
+      width: 90%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .error {
+      color: red;
+      font-size: 15px;
+      position: absolute;
+      margin: auto;
+     
+    }
+    
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      background-color: #007bff;
+      cursor: pointer;
+    }
+    
+   
+    
+    .form-group-inline {
+      display: flex;
+      gap: 5px;
+    }
+    
+    .form-group-inline .form-group {
+      flex: 1;
+    }
+    

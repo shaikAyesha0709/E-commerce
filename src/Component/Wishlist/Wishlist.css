@@ -1,0 +1,116 @@
+
+.wishlist {
+      margin: auto;
+      margin-top: 20px;
+      width: 50vw;
+     height: 90vh;
+      overflow-y: auto;
+    }
+    
+    .wishlist-item {
+      display: flex;
+      justify-content:space-evenly;
+      align-items: center;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: white;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+     
+    }
+    
+    .item-image {
+      width: 140px;
+      height: auto;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+    
+    .item-details {
+      flex: 1;
+      padding: 10px;
+    }
+    
+    .item-details h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .price-section {
+      display: flex;
+      flex-direction: column;
+      margin-top: 5px;
+    }
+    
+    .original-price {
+    
+      color: #000000;
+      margin-bottom: 5px;
+    }
+    
+    .w-discount {
+      color: #28a745;
+      font-size: 16px;
+    }
+    
+     .deleteBtn {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      font-size: 25px;
+      color: #000000;
+    }
+    
+    .deleteBtn:hover {
+      color: #e63946;
+    }
+    .addtocart{
+      font-size: 15px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .addtocart:hover {
+      background-color: #444;
+    }
+
+
+    .empty-wishlist {
+      text-align: center;
+      padding: 100px;
+      background-color: #f0f5fa;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(177, 176, 176, 0.527);
+      margin: 50px;
+
+  }
+  
+  .empty-wishlist h2 {
+      font-size: 30px;
+      margin-bottom: 10px;
+  }
+  
+  .empty-wishlist p {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #6c757d;
+  }
+  
+  .explore-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #000000;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+  .explore-button:hover {
+      background-color: #4f4f4f;
+  }
+  

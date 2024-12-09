@@ -1,0 +1,42 @@
+.view-orders {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 80vw;
+      margin: 40px auto;
+      overflow-y: auto;
+      max-height: 80vh;
+      position: relative;
+    }
+    .view-orders h2{
+             display: flex;
+             justify-content: center;
+             margin-bottom: 20px;
+    }
+    
+    .view-orders table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    .view-orders th, .view-orders td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    .view-orders th {
+      background-color: #000000;
+      font-weight: 300;
+      color: white;
+      font-family: "Poppins";
+      position: sticky; 
+      top: 0; 
+      z-index: 1; 
+    }
+    
+    .view-orders tr:hover {
+      background-color: #f1f1f1;
+    }
+    

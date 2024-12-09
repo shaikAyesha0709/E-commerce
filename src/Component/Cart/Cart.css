@@ -1,0 +1,116 @@
+.cart {
+      margin: auto;
+      margin-top: 20px;
+      width: 80vw;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    
+    .cart-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      margin-bottom: 15px;
+      background-color: white;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    
+    .item-image {
+      width: 100px;
+      height: auto;
+      border-radius: 5px;
+      margin-right: 20px;
+    }
+    
+    .item-details {
+      flex: 2;
+      margin-top: 10px;
+      padding: 0 20px;
+    }
+    
+    .item-details h3 {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    
+    .item-details p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    
+    .delivery-info {
+      color: green;
+      font-size: 14px;
+    }
+    
+    .price-section {
+      margin-top: 5px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .originalprice {
+      color: #000000;
+      margin-right: 10px;
+    }
+
+.C-discount {
+      color: #28a745;
+      font-size: 20px;
+    }
+    
+    
+    .item-actions {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 10px;
+    }
+    
+    .quantity-btn {
+      width: 25px;
+      height: 25px;
+      font-size: 18px;
+      
+      background-color: #eee;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 5px 0;
+      cursor: pointer;
+    }
+    .remove-btn {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      font-size: 25px;
+      color: #000000;
+      margin-top: 10px;
+    }
+    .remove-btn:hover{
+      color: red;
+    }
+    .quantity {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    
+    
+.place-order-btn {
+      width: 100%;
+      background-color: #e63946;
+      color: white;
+      padding: 15px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .place-order-btn:hover {
+      background-color: #c53030;
+    }
+    
